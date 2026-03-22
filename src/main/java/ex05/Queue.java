@@ -1,4 +1,8 @@
 package ex05;
 
-public class Queue {
+import ex04.Command;
+
+public interface Queue {
+    void put(Command cmd);
+    Command take();
 }
