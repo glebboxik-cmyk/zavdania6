@@ -1,4 +1,5 @@
 package ex04;
 
-public class Command {
+public interface Command {
+    void execute() throws Exception;
 }
