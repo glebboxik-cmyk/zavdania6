@@ -1,4 +1,5 @@
 package ex04;
 
-public class ConsoleCommand {
+public interface ConsoleCommand extends Command {
+    char getKey();
 }
