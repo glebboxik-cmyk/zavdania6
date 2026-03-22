@@ -1,4 +1,10 @@
 package ex03;
 
-public class ViewableTable {
+import ex02.ViewableResult;
+import ex02.View;
+
+public class ViewableTable extends ViewableResult {
+    public View getView() {
+        return new ViewTable();
+    }
 }
